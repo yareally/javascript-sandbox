@@ -58,6 +58,8 @@ $(function () {
             }
         });
 
+
+
         // the above is equivalent to the below loop:
 
 /*        for (let index = 0; index < requiredArray.length; ++index) {
