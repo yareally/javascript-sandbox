@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery Demo</title>
+    <link rel="stylesheet" href="css/jquery-demo.css"/>
+</head>
+<body>
+<header>
+    <ul>
+        <li class="first">Item 1</li>
+        <li class="selected">Item 2</li>
+        <li class="last">Item 3</li>
+    </ul>
+</header>
+<div class="col">
+    <section>
+        <h1>Section 1</h1>
+    </section>
+    <section class="current">
+        <h2 class="highlight">Section 2</h2>
+    </section>
+    <section id="content">
+        <h3>Section 3</h3>
+        <h3>Section 4</h3>
+        <h3>Section 5</h3>
+        <h3>Section 6</h3>
+        <h3>Section 7</h3>
+        <button id="pageButton">click me</button>
+    </section>
+</div>
+<div class="grandparent">
+    <div class="parent">
+        <div class="child">
+            <span class="subchild"></span>
+        </div>
+    </div>
+    <div class="surrogateParent1"></div>
+    <div class="surrogateParent2"></div>
+</div>
+
+
+<!-- form exercise -->
+<div id="pre-form">
+    <h2>We'd love to hear your thoughts!</h2>
+</div>
+<div class="form-container">
+    <form id="form" name="form">
+        <h3>Contact Us Here:</h3>
+        <p class="errors"></p>
+
+        <div><label>Name:</label>
+            <input id="name" placeholder="Name" type="text">
+        </div>
+
+        <div><label>Email:</label>
+            <input id="email" placeholder="Email" type="email">
+        </div>
+
+        <div><label>Number:</label>
+            <input id="phone" placeholder="10 digit phone number." type="tel">
+        </div>
+
+        <div><label>Message:</label>
+            <textarea id="message"
+                      placeholder="Your thoughts here :)"></textarea>
+        </div>
+
+        <input id="submit" type="button" value="Send It!">
+    </form>
+</div>
+
+<div id="box"></div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.demo.js"></script>
+</body>
+</html>
+<body>
+
